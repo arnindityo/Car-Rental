@@ -1,0 +1,106 @@
+.section3 {
+    padding: 100px 0px;
+}
+
+#why-us-1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+#why-us-2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+@media (max-width:992px){
+    .borderSection3 {
+        border: 1px;
+        border-style:solid;
+        border-color: #D0D0D0;
+        border-radius: 8px;
+        padding: 24px;
+        margin-bottom: 15px;
+    }
+}
+
+.borderSection3 {
+    border: 1px;
+    border-style:solid;
+    border-color: #D0D0D0;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+#mobilLengkap1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+#mobilLengkap2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+#hrgMurah1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+#hrgMurah2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+#layanan1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+#layanan2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+#sopirProf1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+#sopirProf2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+} 

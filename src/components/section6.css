@@ -1,0 +1,36 @@
+.section6 {
+    margin-top: 60px;
+}
+
+#sec-6-tab1-top {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+#sec-6-tab1-bot {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.accordion {
+    margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .accordion {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sec-6-tab1-top, #sec-6-tab1-bot {
+        text-align: center;
+    }
+}

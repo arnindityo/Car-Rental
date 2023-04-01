@@ -1,0 +1,8 @@
+.section2 {
+    padding-top: 136px;
+}
+.checklist {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
