@@ -11,10 +11,10 @@ function Section2() {
                 </div>
 
                 <div className="col-lg-6">
-                    <h2>Best Car Rental for any kind of trip in (Lokasimu)!</h2>
+                    <h2>Best Car Rental for any kind of trip in JAKARTA!</h2>
                     <br />
                     <h6>
-                        Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga
+                        Sewa mobil di JAKARTA bersama Binar Car Rental jaminan harga
                         lebih murah dibandingkan yang lain, kondisi mobil baru, serta
                         kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
                         meeting, dll.

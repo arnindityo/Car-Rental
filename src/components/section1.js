@@ -12,7 +12,7 @@ const Section1 = () => {
             <div className="">
                 <div className="row">
                     <div className="col-lg-5 pe-5 align-self-center">
-                        <h1>Sewa & Rental Mobil Terbaik di Kawasan (Lokasimu)</h1>
+                        <h1>Sewa & Rental Mobil Terbaik di Kawasan JAKARTA</h1>
                         <br />
                         <h6>
                         Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
