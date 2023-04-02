@@ -3,8 +3,13 @@ import './crmobil.css';
 import Navbar from "./navbar";
 import Section1 from "./section1";
 import Section7 from "./section7";
+import { useHistory } from "react-router-dom";
+import Form from "./form/Form";
+
+const apiCarURL = "https://bootcamp-rent-cars.herokuapp.com/customer/v2/car";
 
 const CrMobil = () => {
+    const { push } = useHistory()
     return(
         <div>
             <Navbar />
@@ -12,28 +17,23 @@ const CrMobil = () => {
             <div className="container d-flex justify-content-center">
                 <div className="cari-mobil d-flex gap-2">
 
-                    <div className="form-nama-mobil">
-                        <label for="exampleFormControlInput1" className="form-label">Nama</label>
-                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Ketik nama/tipe mobil"/>
-                    </div>
+            <Form />
 
                     <div className="form-kategori-mobil">
                         <label for="exampleFormControlInput1" className="form-label">Kategori</label>
                         <select className="form-select" aria-label="Default select example">
-                        <option selected>Masukan Kapasitas Mobil</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <option selected>2-4 orang</option>
+                        <option value="1">4-6 orang</option>
+                        <option value="2">6-8 orang</option>
                         </select>
                     </div>
 
                     <div className="form-harga-mobil">
                         <label for="exampleFormControlInput1" className="form-label">Harga</label>
                         <select className="form-select" aria-label="Default select example">
-                        <option selected>Masukan Harga Sewa per Hari</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <option selected>Dibawah Rp. 400.000</option>
+                        <option value="1">Rp. 400.000 - Rp. 600.000</option>
+                        <option value="2">Diatas Rp. 600.000</option>
                         </select>
                     </div>
 
@@ -41,13 +41,11 @@ const CrMobil = () => {
                         <label for="exampleFormControlInput1" className="form-label">Status</label>
                         <select className="form-select" aria-label="Default select example">
                         <option selected>Disewa</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <option value="1">Kosong</option>
                         </select>
                     </div>
 
-                    <button type="button" className="btn btn-success mt-">
+                    <button onClick={() => push('/pencarian')} type="button" className="btn btn-success mt-">
                         Cari Mobil
                     </button>
                 </div>

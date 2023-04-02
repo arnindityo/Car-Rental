@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import './section1.css';
 import img from '../imgCar.png';
 
 const Section1 = () => {
     const { push } = useHistory()
+    const pathName = window.location.href
     
     return(
         <div className="section1">
@@ -21,9 +22,12 @@ const Section1 = () => {
             
                         <br />
             
-                        <button onClick={() => push('/cari-mobil')} type="button" className="btn btn-success mt-">
-                        <a>Mulai Sewa Mobil</a>
-                        </button>
+                        {
+                            !/cari-mobil/.test(pathName) && <button onClick={() => push('/cari-mobil')} type="button" className="btn btn-success mt-">
+                            <a>Mulai Sewa Mobil</a>
+                            </button>
+                        }
+                        
                     </div>
             
                     <div className="col-lg-7">

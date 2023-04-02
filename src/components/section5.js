@@ -12,7 +12,7 @@ const Section5 = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </div>
-      <button onClick={() => push('/Carimobil')}
+      <button onClick={() => push('/cari-mobil')}
         type="button"
         className="btn btn-success mt-"
       >
