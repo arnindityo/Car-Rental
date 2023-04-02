@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
 import './section1.css';
-import img from '../imgCar.png';
+import img from '../img_car.png';
 
 const Section1 = () => {
     const { push } = useHistory()
@@ -9,7 +9,7 @@ const Section1 = () => {
     
     return(
         <div className="section1">
-            <div className="container-fluid">
+            <div className="">
                 <div className="row">
                     <div className="col-lg-5 pe-5 align-self-center">
                         <h1>Sewa & Rental Mobil Terbaik di Kawasan (Lokasimu)</h1>
