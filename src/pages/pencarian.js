@@ -36,7 +36,7 @@ const Pencarian = () => {
       });
   };
   return (
-    <div className="container">
+    <div className="">
       <Navbar />
       <div className="container d-flex justify-content-center" style={{marginTop: "200px"}}>
         <div className="cari-mobil d-flex gap-2">

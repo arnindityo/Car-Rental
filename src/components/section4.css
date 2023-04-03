@@ -19,46 +19,6 @@
 }
 
 
-
-/* @media (max-width: 767px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    max-height: 280px;
-    margin-left: -80px;
-    gap: 80px
-}
-
-
-@media (min-width: 768px) {
-
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
-    }
-
-    .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
-    }
-}
-
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
-    transform: translateX(0);
-} */
-
 .caro {
     display: flex;
     flex-direction: row;
@@ -99,4 +59,27 @@
         min-width: 500px
 
     }
+}
+
+
+.carstyle{
+    display: flex;
+    justify-content: center;
+}
+
+.btncar{
+    height: 30px;
+    width: 30px;
+    background:none;
+    padding: 0%;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+    border: 1px solid #C4C4C4;
+}
+
+.iconstyle{
+    font-size: 33px;
+    position: absolute;
+    top: -14px;
 }

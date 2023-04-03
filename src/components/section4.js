@@ -134,3 +134,73 @@ function Section4() {
 }
 
 export default Section4;
+
+// import { useSnapCarousel } from "react-snap-carousel";
+
+// const AdvancedCarousel = () => {
+//   const {
+//     scrollRef,
+//     pages,
+//     activePageIndex,
+//     next,
+//     prev,
+//     goTo,
+//   } = useSnapCarousel();
+//   return (
+//     <>
+//       <div className="section4">
+//         <div className="testi-1">
+//           <div>Testimonial</div>
+//         </div>
+
+//         <div className="testi-2">
+//           <div>Berbagai review positif dari para pelanggan kami</div>
+//         </div>
+//         <ul
+//           ref={scrollRef}
+//           style={{
+//             display: "flex",
+//             overflow: "auto",
+//             scrollSnapType: "mandatory",
+//           }}
+//         >
+//           {Array.from({ length: 3 }).map((_, i) => (
+//             <li
+//               style={{
+//                 borderRadius: "8px",
+//                 backgroundColor: "#F1F3FF",
+//                 margin: "16px",
+//                 fontSize: "50px",
+//                 width: "600px",
+//                 height: "250px",
+//                 flexShrink: 0,
+//                 color: "#000",
+//                 display: "flex",
+//                 justifyContent: "center",
+//                 alignItems: "center",
+//               }}
+//             >
+//               Item {i}
+//             </li>
+//           ))}
+//         </ul>
+//         <div className="carstyle">
+//           <button
+//             class="d-flex align-items-center justify-content-center btncar me-3"
+//             onClick={() => prev()}
+//           >
+//             <span className="iconstyle">&lsaquo;</span>
+//           </button>
+//           <button
+//             class="d-flex align-items-center justify-content-center btncar"
+//             onClick={() => next()}
+//           >
+//             <span className="iconstyle">&rsaquo;</span>
+//           </button>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+
+// export default AdvancedCarousel;
