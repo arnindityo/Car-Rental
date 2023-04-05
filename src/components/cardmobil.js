@@ -1,17 +1,19 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import axios, { Axios } from "axios";
+import axios from "axios";
+import { useHistory, useParams } from "react-router-dom";
 
 const CardMobil = () => {
   const apiCarURL = "https://bootcamp-rent-cars.herokuapp.com/customer/v2/car";
-  const [valueCategory, setCategory] = useState("");
-  const [valueHarga, setHarga] = useState("");
-  const [valueStatus, setStatus] = useState("");
-  const [carName, setCarName] = useState("");
   const [listCars, setListCars] = useState([]);
+  const {push} = useHistory()
   console.log(listCars);
 
+
+  const handlePilihMobil = (param) => {
+    push(`/detail-mobil/${param}`)
+  }
 const handlerGetCar = async() => {
 try{
   const config = {
@@ -59,7 +61,7 @@ try{
           </div>
 
           <Button
-            // onClick={() => handlePilihMobil(id)}
+            onClick={() => handlePilihMobil(item.id)}
             style={{
               margin: "1em",
               backgroundColor: "#5CB85F",
