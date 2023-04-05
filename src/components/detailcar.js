@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import Navbar from "./navbar";
 import Form from "./form/Form";
 import Section7 from "./section7";
+import "./detailcar.css"
 
 const apiDetailCar = `https://bootcamp-rent-cars.herokuapp.com/customer/car`;
 
@@ -23,10 +24,10 @@ const DetailCar = () => {
 
   return (
     <div>
-        <div style={{marginBottom: "200px"}}><Navbar /></div>
+        <div style={{marginBottom: "100px"}}><Navbar /></div>
         <Form />
-      <div className="container">
-        <div className="col-7 tulisan">
+      <div className="container detailpage">
+        <div className="col-6 tulisan">
           <div>
             <h5>Tentang Paket</h5>
             <br></br>

@@ -3,7 +3,7 @@ import './section3.css';
 
 function Section3() {
     return(
-        <div className="container section3">
+        <div className="container section3" id="sectionWhyUs">
             <div id="why-us-1">Why Us?</div>
             <div id="why-us-2">Mengapa harus pilih Binar Car Rental?</div>
 

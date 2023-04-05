@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 function Section6() {
   return (
-    <div className="container section6">
+    <div className="container section6" id="sectionFAQ">
       <div className="row">
         <div className="col-md sec-6-tab1">
           <div id="sec-6-tab1-top">Frequently Asked Question</div>

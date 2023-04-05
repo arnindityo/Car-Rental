@@ -1,15 +1,13 @@
-.container{
+.detailpage{
     display: flex;
     flex-direction: row;
-    margin-left: 136px;
-    margin-right: 136px;
+    margin-bottom: 200px;
     justify-content: space-between;
 }
 .tulisan {
     display: flex;
     flex-direction: column;
     width: max-content;
-    height: 618px;
     padding: 24px;
     background-color: #0D28A600;
     background: #FFFFFF;
@@ -22,7 +20,7 @@
 
 .cardloc {
     width: 405px;
-    height: 435px;
+    height: 550px;
     padding: 24px;
     background-color: #0D28A600;
     background: #FFFFFF;

@@ -6,9 +6,9 @@ function Section7() {
         <div className="container section7">
             <div className="row">
                 <div className="col-md-3">
-                <h6>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</h6>
+                <h6>Jalan Batu Raya No. 2 Kota Jakarta 12960</h6>
                 <br />
-                <h6>binarcarrental@gmail.com</h6>
+                <h6>arnindityon@gmail.com</h6>
                 <br />
                 <h6>081-233-334-808</h6>
                 </div>
@@ -127,7 +127,7 @@ function Section7() {
                 
                 <a
                 className="navbar navbar-brand mt-3"
-                href="#"
+                href="/"
                 ></a>
                 </div>
             </div>

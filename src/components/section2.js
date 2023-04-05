@@ -4,7 +4,7 @@ import img from '../img_service.png';
 
 function Section2() {
     return(
-        <div className="container section2">
+        <div className="container section2" id="sectionOurServices">
             <div className="row">
                 <div className="col-lg-6">
                     <img src={img} alt="Mba" id="woman" style={{width: "75%"}} />

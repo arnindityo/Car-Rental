@@ -11,7 +11,7 @@ function NavigationBar() {
       {['sm'].map((expand) => (
         <Navbar key={expand} expand={expand}>
           <Container>
-            <Navbar.Brand href="#"></Navbar.Brand>
+            <Navbar.Brand href="/"></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -25,10 +25,10 @@ function NavigationBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Our Services</Nav.Link>
-                  <Nav.Link href="#action2">Why Us</Nav.Link>
-                  <Nav.Link href="#action3">Testimonial</Nav.Link>
-                  <Nav.Link href="#action4">FAQ</Nav.Link>
+                  <Nav.Link href="#sectionOurServices">Our Services</Nav.Link>
+                  <Nav.Link href="#sectionWhyUs">Why Us</Nav.Link>
+                  <Nav.Link href="#sectionTestimonial">Testimonial</Nav.Link>
+                  <Nav.Link href="#sectionFAQ">FAQ</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
